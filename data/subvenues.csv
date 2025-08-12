@@ -1,0 +1,18 @@
+id,Name,mainVenue_id,capacity,active
+1,Villa Rose,39,50,TRUE
+2,Rose + Markisa,39,80,TRUE
+3,Entire Estate,39,250,TRUE
+4,Rose + Markisa + Marie,39,80,TRUE
+5,Pala + Rose,39,80,TRUE
+6,Markisa + Marie,39,50,TRUE
+7,Villa Markisa ,39,50,TRUE
+8,Pala + Rose + Markisa,39,80,TRUE
+9,Pala + Rose + Markisa,39,80,TRUE
+10,The Pala ,39,50,TRUE
+11,SKY is the Limit 100,5,100,TRUE
+12,SKY is the Limit - 200,5,200,TRUE
+13,SKY is the Limit - 300,5,300,TRUE
+14,Villa Ayana,5,50,TRUE
+15,Tresna Chapel ,5,50,TRUE
+16,Bale Kencana / Asmara Garden,5,20,TRUE
+17,Sweet Escape at Kisik Pier,5,30,TRUE

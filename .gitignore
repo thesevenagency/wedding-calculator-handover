@@ -1,0 +1,22 @@
+# Node/Python/OS
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Envs
+.env
+.venv/
+.env.local
+
+# Builds
+dist/
+build/
+
+# Data exports
+*.sqlite
+*.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json

@@ -1,0 +1,110 @@
+id,Name,seasonRules,active,calculationModel,allowsOutsideCatering,requiresSubVenue
+1,Villa Kailasha,,False,,,
+2,Jeeva Saba,,False,,,
+3,Villa Phalosa,,False,,,
+4,GLAMP NUSA,,False,,,
+5,AYANA Resort Bali,"[
+  {
+    ""seasonStartDate"": ""2025-03-28"",
+    ""seasonEndDate"": ""2025-03-30"",
+    ""seasonType"": ""blackout""
+  },
+  {
+    ""seasonStartDate"": ""2025-12-24"",
+    ""seasonEndDate"": ""2026-01-02"",
+    ""seasonType"": ""blackout""
+  },
+  {
+    ""seasonStartDate"": ""2025-05-25"",
+    ""seasonEndDate"": ""2025-05-25"",
+    ""seasonType"": ""auspicious""
+  },
+  {
+    ""seasonStartDate"": ""2025-05-20"",
+    ""seasonEndDate"": ""2025-05-20"",
+    ""seasonType"": ""auspicious""
+  },
+  {
+    ""seasonStartDate"": ""2025-10-01"",
+    ""seasonEndDate"": ""2025-10-07"",
+    ""seasonType"": ""high""
+  },
+  {
+    ""seasonStartDate"": ""2025-08-01"",
+    ""seasonEndDate"": ""2025-08-31"",
+    ""seasonType"": ""high""
+  },
+  {
+    ""seasonStartDate"": ""2025-04-29"",
+    ""seasonEndDate"": ""2025-05-06"",
+    ""seasonType"": ""high""
+  },
+  {
+    ""seasonStartDate"": ""2025-03-30"",
+    ""seasonEndDate"": ""2025-04-06"",
+    ""seasonType"": ""high""
+  },
+  {
+    ""seasonStartDate"": ""2025-01-01"",
+    ""seasonEndDate"": ""2025-01-05"",
+    ""seasonType"": ""high""
+  },
+  {
+    ""seasonStartDate"": ""2025-01-28"",
+    ""seasonEndDate"": ""2025-02-02"",
+    ""seasonType"": ""high""
+  }
+]
+",True,hotelPackage,False,True
+6,JEEVA SABA BALI,,False,,,
+7,ALAMI BOUTIQUE VILLA & RESORT,,False,,,
+8,SOORI TABANAN,,False,,,
+9,AMANKILA CANDIDASA,,False,,,
+10,NOKU BEACH HOUSE ,,False,,,
+11,PURI NIRWANA VILLA,,False,,,
+12,Sungai Tinggi Villa,,False,,,
+13,VILLA NICA,,False,,,
+14,THE PALM HOUSE,,False,,,
+15,VILLA ATAS OMBAK,,False,,,
+16,SESEH BEACH VILLAS  II,,False,,,
+17,SESEH BEACH VILLAS I,,False,,,
+18,SESEH BALI BEACH - COMPLEX,,False,,,
+19,PURE VILLA,,False,,,
+20,VILLA BEJI,,False,,,
+21,ARNALAYA BEACH HOUSE,,False,,,
+22,BALI BEACH GLAMPING ,,False,,,
+23,VILLA VEDAS BALI,,False,,,
+24,VILLA PLENILUNIO BALI,,False,,,
+25,STONE VILLA ULUWATU ,,False,,,
+26,THE BACKYARD BINGIN,,False,,,
+27,THE SURGA VILLA ESTATE,,False,,,
+28,VILLA LATITUDE - BALI,,False,,,
+30,ALILA ULUWATU ,,False,,,
+31,ULUWATU COTTAGES,,False,,,
+32,WONDERLAND ULUWATU,,False,,,
+33,THE UNGASAN - VILLA TAMARAMA,,False,,,
+34,THE UNGASAN - VILLA SANTAI SORGA,,False,,,
+35,THE UNGASAN - VILLA PAWANA,,False,,,
+36,THE UNGASAN - VILLA AMBAR,,False,,,
+37,THE UNGASAN - SELATAN LAWN,,False,,,
+38,VILLA PEMUTIH,,False,,,
+39,Pandawa Cliff Estate,"[
+  {
+    ""seasonStartDate"": ""2026-04-01"",
+    ""seasonEndDate"": ""2026-07-31"",
+    ""seasonType"": ""high""
+  },
+  {
+    ""seasonStartDate"": ""2025-11-01"",
+    ""seasonEndDate"": ""2026-03-31"",
+    ""seasonType"": ""low""
+  },
+  {
+    ""seasonStartDate"": ""2025-04-01"",
+    ""seasonEndDate"": ""2025-10-31"",
+    ""seasonType"": ""high""
+  }
+]
+",True,venueRental,True,True
+43,TEST3,"[{""min_nights"":3,""seasonEndDate"":""2025-04-01"",""seasonType"":""standard"",""seasonStartDate"":""2025-01-01""},{""seasonStartDate"":""2025-06-01"",""seasonType"":""high"",""seasonEndDate"":""2026-02-02"",""min_nights"":3}]",,venueRental,True,
+0,GLOBAL (all venues),,1,,1,0
