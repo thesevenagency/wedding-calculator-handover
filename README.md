@@ -41,16 +41,14 @@ This repository contains the **data**, **calculation logic outline**, and **deve
    ```
 
 ## Data Tables (CSV)
-Auto-detected columns from uploaded files. Review `docs/ERD.md` for PK/FK mapping.
-
-- **service_categories.csv**: (empty or unreadable — please verify delimiter)
-- **seasons.csv**: (empty or unreadable — please verify delimiter)
-- **services.csv**: (empty or unreadable — please verify delimiter)
-- **subvenues.csv**: (empty or unreadable — please verify delimiter)
-- **calculator.csv**: (empty or unreadable — please verify delimiter)
-- **vendors.csv**: (empty or unreadable — please verify delimiter)
-- **pricelist.csv**: (empty or unreadable — please verify delimiter)
-- **venues.csv**: (empty or unreadable — please verify delimiter)
+- **service_categories.csv**: id, Name
+- **seasons.csv**: id, seasonName, seasonType, seasonStartDate, seasonEndDate, venue_id, min_nights, active
+- **services.csv**: id, serviceName
+- **subvenues.csv**: id, Name, mainVenue_id, capacity, active
+- **calculator.csv**:  CALCULATION PARAMETERS , Unnamed: 1, Unnamed: 2, CALCULATION RESULTS, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, Unnamed: 9, Helper: Sub-venue List, Unnamed: 11, Unnamed: 12
+- **vendors.csv**: id, vendorName
+- **pricelist.csv**: id, itemName, venue_id, sub_venue_id, serviceCategory_id, feeRules, guestMin, guestMax, includedInVenue, visibleInCalculator, vendor_id, active, service_id, description
+- **venues.csv**: id, Name, seasonRules, active, calculationModel, allowsOutsideCatering, requiresSubVenue
 
 ## Calculation Flow (high-level)
 See `docs/calculator_flow.md` for the contract the code must satisfy. In short:
